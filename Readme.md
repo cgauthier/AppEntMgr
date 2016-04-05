@@ -1,3 +1,16 @@
+# APPLICATION ENTITLEMENT MANAGEMENT
+
+## Written in ExtJS 5
+
+### Features:
+
+- Design to manage application entitlement at users, groups, personas levels
+- Uses an entitlement config file which can be generated from a service to customize the app and a user's access and functionality
+- Reconfigures the interface on the fly when changing application context (the available applications a user can modify is available via the application context combo box)
+
+
+
+
 # AppEntMgr
 
 This folder is primarily a container for the top-level pieces of the application.
