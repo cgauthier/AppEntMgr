@@ -1,0 +1,14 @@
+{
+	"success": true,
+	"data": [{
+		"column1": "rocks"
+	}, {
+		"column1": "papers"
+	}, {
+		"column1": "scissors"
+	}, {
+		"column1": "rolling"
+	}, {
+		"column1": "roads"
+	}]
+}

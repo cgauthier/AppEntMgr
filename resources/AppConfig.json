@@ -1,0 +1,712 @@
+{
+    "success": true,
+    "data": {
+        "appContext": {
+            "defaultValue": "ecp",
+            "fields": [
+                {
+                    "name": "value",
+                    "type": "string"
+                },
+                {
+                    "name": "label",
+                    "type": "string"
+                }
+            ],
+            "data": [
+                {
+                    "value": "ecp",
+                    "label": "ECP"
+                },
+                {
+                    "value": "primeview",
+                    "label": "Prime View"
+                }
+            ]
+        },
+        "styling": {
+            "toolbar": {
+                "background": "background-color:#164263",
+                "font": "font-size:10px!important;color:#ffffff!important"
+            }
+        },
+        "viewer": {
+            "filtergrid": {
+                "ecp": {
+                    "usergroups": {
+                        "url": "",
+                        "fields": [
+                            {
+                                "name": "column1",
+                                "type": "string"
+                            }
+                        ],
+                        "columns": [
+                            {
+                                "header": "User Groups",
+                                "flex": 1,
+                                "dataIndex": "column1",
+                                "items": [
+                                    {
+                                        "xtype": "textfield",
+                                        "margin": "0",
+                                        "width": 265,
+                                        "action": "filter",
+                                        "enableKeyEvents": true
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "resources": {
+                        "url": "",
+                        "fields": [
+                            {
+                                "name": "column1",
+                                "type": "string"
+                            }
+                        ],
+                        "columns": [
+                            {
+                                "header": "Resources",
+                                "flex": 1,
+                                "dataIndex": "column1",
+                                "items": [
+                                    {
+                                        "xtype": "textfield",
+                                        "margin": "0",
+                                        "width": 265,
+                                        "action": "filter",
+                                        "enableKeyEvents": true
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "resourcegroups": {
+                        "url": "",
+                        "fields": [
+                            {
+                                "name": "column1",
+                                "type": "string"
+                            }
+                        ],
+                        "columns": [
+                            {
+                                "header": "Resource Groups",
+                                "flex": 1,
+                                "dataIndex": "column1",
+                                "items": [
+                                    {
+                                        "xtype": "textfield",
+                                        "margin": "0",
+                                        "width": 265,
+                                        "action": "filter",
+                                        "enableKeyEvents": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "primeview": {
+                    "usergroups": {
+                        "url": "",
+                        "fields": [
+                            {
+                                "name": "column1",
+                                "type": "string"
+                            }
+                        ],
+                        "columns": [
+                            {
+                                "header": "User Groups",
+                                "flex": 1,
+                                "dataIndex": "column1",
+                                "items": [
+                                    {
+                                        "xtype": "textfield",
+                                        "margin": "0",
+                                        "width": 265,
+                                        "action": "filter",
+                                        "enableKeyEvents": true
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "resources": {
+                        "url": "",
+                        "fields": [
+                            {
+                                "name": "column1",
+                                "type": "string"
+                            }
+                        ],
+                        "columns": [
+                            {
+                                "header": "Resources",
+                                "flex": 1,
+                                "dataIndex": "column1",
+                                "items": [
+                                    {
+                                        "xtype": "textfield",
+                                        "margin": "0",
+                                        "width": 265,
+                                        "action": "filter",
+                                        "enableKeyEvents": true
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "resourcegroups": {
+                        "url": "",
+                        "fields": [
+                            {
+                                "name": "column1",
+                                "type": "string"
+                            }
+                        ],
+                        "columns": [
+                            {
+                                "header": "Resource Groups",
+                                "flex": 1,
+                                "dataIndex": "column1",
+                                "items": [
+                                    {
+                                        "xtype": "textfield",
+                                        "margin": "0",
+                                        "width": 265,
+                                        "action": "filter",
+                                        "enableKeyEvents": true
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "businessentities": {
+                        "url": "",
+                        "fields": [
+                            {
+                                "name": "column1",
+                                "type": "string"
+                            }
+                        ],
+                        "columns": [
+                            {
+                                "header": "Business Entities",
+                                "flex": 1,
+                                "dataIndex": "column1",
+                                "items": [
+                                    {
+                                        "xtype": "textfield",
+                                        "margin": "0",
+                                        "width": 265,
+                                        "action": "filter",
+                                        "enableKeyEvents": true
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "businessentitygroups": {
+                        "url": "",
+                        "fields": [
+                            {
+                                "name": "column1",
+                                "type": "string"
+                            }
+                        ],
+                        "columns": [
+                            {
+                                "header": "Business Entity Groups",
+                                "flex": 1,
+                                "dataIndex": "column1",
+                                "items": [
+                                    {
+                                        "xtype": "textfield",
+                                        "margin": "0",
+                                        "width": 265,
+                                        "action": "filter",
+                                        "enableKeyEvents": true
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            },
+            "queries": {
+                "ecp": {
+                    "combo": [
+                        {
+                            "value": "query1",
+                            "label": "Query 1"
+                        },
+                        {
+                            "value": "query2",
+                            "label": "Query 2"
+                        },
+                        {
+                            "value": "query3",
+                            "label": "Query 3"
+                        },
+                        {
+                            "value": "query4",
+                            "label": "Query 4"
+                        }
+                    ],
+                    "fields": [
+                        {
+                            "name": "value",
+                            "type": "string"
+                        },
+                        {
+                            "name": "label",
+                            "type": "string"
+                        }
+                    ],
+                    "queries": {
+                        "query1": {
+                            "usertype": {
+                                "type": "radiogroup",
+                                "name": "usertype",
+                                "value": "External"
+                            },
+                            "users": {
+                                "type": "textfield",
+                                "value": "user1, user2"
+                            },
+                            "usergroups": {
+                                "type": "textfield",
+                                "value": "usergroup1"
+                            },
+                            "resources": {
+                                "type": "textfield",
+                                "value": "resources1"
+                            },
+                            "resourcegroups": {
+                                "type": "textfield",
+                                "value": "resourcesgroups1"
+                            }
+                        },
+                        "query2": {
+                            "usertype": {
+                                "type": "radiogroup",
+                                "name": "usertype",
+                                "value": "Internal"
+                            },
+                            "users": {
+                                "type": "textfield",
+                                "value": "user3, user4"
+                            },
+                            "usergroups": {
+                                "type": "textfield",
+                                "value": "usergroup2"
+                            },
+                            "resources": {
+                                "type": "textfield",
+                                "value": "resources2, resources3"
+                            },
+                            "resourcegroups": {
+                                "type": "textfield",
+                                "value": "resourcesgroups2"
+                            }
+                        },
+                        "query3": {
+                            "usertype": {
+                                "type": "radiogroup",
+                                "name": "usertype",
+                                "value": "Both"
+                            },
+                            "users": {
+                                "type": "textfield",
+                                "value": null
+                            },
+                            "usergroups": {
+                                "type": "textfield",
+                                "value": "usergroup3"
+                            },
+                            "resources": {
+                                "type": "textfield",
+                                "value": null
+                            },
+                            "resourcegroups": {
+                                "type": "textfield",
+                                "value": "resourcesgroups3"
+                            }
+                        },
+                        "query4": {
+                            "usertype": {
+                                "type": "radiogroup",
+                                "name": "usertype",
+                                "value": "Internal"
+                            },
+                            "users": {
+                                "type": "textfield",
+                                "value": null
+                            },
+                            "usergroups": {
+                                "type": "textfield",
+                                "value": null
+                            },
+                            "resources": {
+                                "type": "textfield",
+                                "value": "resources4"
+                            },
+                            "resourcegroups": {
+                                "type": "textfield",
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "primeview": {
+                    "combo": [
+                        {
+                            "value": "query5",
+                            "label": "Query 5"
+                        },
+                        {
+                            "value": "query6",
+                            "label": "Query 6"
+                        },
+                        {
+                            "value": "query7",
+                            "label": "Query 7"
+                        },
+                        {
+                            "value": "query8",
+                            "label": "Query 8"
+                        }
+                    ],
+                    "fields": [
+                        {
+                            "name": "value",
+                            "type": "string"
+                        },
+                        {
+                            "name": "label",
+                            "type": "string"
+                        }
+                    ],
+                    "queries": {
+                        "query5": {
+                            "usertype": {
+                                "type": "radiogroup",
+                                "name": "usertype",
+                                "value": "External"
+                            },
+                            "users": {
+                                "type": "textfield",
+                                "value": "userl, user2"
+                            },
+                            "usergroups": {
+                                "type": "textfield",
+                                "value": "usergroup1"
+                            },
+                            "resources": {
+                                "type": "textfield",
+                                "value": "resources1"
+                            },
+                            "resourcegroups": {
+                                "type": "textfield",
+                                "value": "resourcesgroups1"
+                            },
+                            "businessentities": {
+                                "type": "textfield",
+                                "value": "businessentities1"
+                            },
+                            "businessentitygroups": {
+                                "type": "textfield",
+                                "value": "businessentitygroups1"
+                            }
+                        },
+                        "query6": {
+                            "usertype": {
+                                "type": "radiogroup",
+                                "name": "usertype",
+                                "value": "Both"
+                            },
+                            "users": {
+                                "type": "textfield",
+                                "value": "user1, user2"
+                            },
+                            "usergroups": {
+                                "type": "textfield",
+                                "value": "usergroup1"
+                            },
+                            "resources": {
+                                "type": "textfield",
+                                "value": null
+                            },
+                            "resourcegroups": {
+                                "type": "textfield",
+                                "value": "resourcesgroups1"
+                            },
+                            "businessentities": {
+                                "type": "textfield",
+                                "value": null
+                            },
+                            "businessentitygroups": {
+                                "type": "textfield",
+                                "value": "businessentitygroups1"
+                            }
+                        },
+                        "query7": {
+                            "usertype": {
+                                "type": "radiogroup",
+                                "name": "usertype",
+                                "value": "Internal"
+                            },
+                            "users": {
+                                "type": "textfield",
+                                "value": null
+                            },
+                            "usergroups": {
+                                "type": "textfield",
+                                "value": "usergroup5"
+                            },
+                            "resources": {
+                                "type": "textfield",
+                                "value": null
+                            },
+                            "resourcegroups": {
+                                "type": "textfield",
+                                "value": "resourcesgroups1"
+                            },
+                            "businessentities": {
+                                "type": "textfield",
+                                "value": null
+                            },
+                            "businessentitygroups": {
+                                "type": "textfield",
+                                "value": "businessentitygroups1"
+                            }
+                        },
+                        "query8": {
+                            "usertype": {
+                                "type": "radiogroup",
+                                "name": "usertype",
+                                "value": "External"
+                            },
+                            "users": {
+                                "type": "textfield",
+                                "value": null
+                            },
+                            "usergroups": {
+                                "type": "textfield",
+                                "value": null
+                            },
+                            "resources": {
+                                "type": "textfield",
+                                "value": "resources6, resources7"
+                            },
+                            "resourcegroups": {
+                                "type": "textfield",
+                                "value": null
+                            },
+                            "businessentities": {
+                                "type": "textfield",
+                                "value": null
+                            },
+                            "businessentitygroups": {
+                                "type": "textfield",
+                                "value": "businessentitygroups4"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "controls": {
+            "usertype": {
+                "xtype": "radiogroup",
+                "labelAlign": "top",
+                "fieldLabel": "User Type",
+                "statusBarLabel": "User Type",
+                "ref": "usertype",
+                "vertical": false,
+                "columns": 3,
+                "items": [
+                    {
+                        "boxLabel": "Internal",
+                        "name": "usertype",
+                        "inputValue": "Internal",
+                        "checked": true
+                    },
+                    {
+                        "boxLabel": "External",
+                        "name": "usertype",
+                        "inputValue": "External"
+                    },
+                    {
+                        "boxLabel": "Both",
+                        "name": "usertype",
+                        "inputValue": "Both"
+                    }
+                ],
+                "height": 50
+            },
+            "users": {
+                "xtype": "textfield",
+                "labelAlign": "top",
+                "ref": "users",
+                "fieldLabel": "Users (comma separated)",
+                "statusBarLabel": "Users"
+            },
+            "usergroups": {
+                "xtype": "textfield",
+                "labelAlign": "top",
+                "fieldLabel": "User Groups",
+                "ref": "usergroups",
+                "action": {
+                    "call": "openPopup",
+                    "callType": "handler",
+                    "callAs": "triggers|show",
+                    "params": [
+                        "User Groups",
+                        "usergroups"
+                    ]
+                },
+                "triggers": {
+                    "show": {
+                        "cls": "x-form-search-trigger"
+                    }
+                },
+                "statusBarLabel": "User Groups"
+            },
+            "resources": {
+                "xtype": "textfield",
+                "labelAlign": "top",
+                "fieldLabel": "Resources",
+                "ref": "resources",
+                "action": {
+                    "call": "openPopup",
+                    "callType": "handler",
+                    "callAs": "triggers|show",
+                    "params": [
+                        "Resources",
+                        "resources"
+                    ]
+                },
+                "triggers": {
+                    "show": {
+                        "cls": "x-form-search-trigger"
+                    }
+                },
+                "statusBarLabel": "Resources"
+            },
+            "resourcegroups": {
+                "xtype": "textfield",
+                "labelAlign": "top",
+                "fieldLabel": "Resource Groups",
+                "ref": "resourcegroups",
+                "action": {
+                    "call": "openPopup",
+                    "callType": "handler",
+                    "callAs": "triggers|show",
+                    "params": [
+                        "Resource Groups",
+                        "resourcegroups"
+                    ]
+                },
+                "triggers": {
+                    "show": {
+                        "cls": "x-form-search-trigger"
+                    }
+                },
+                "statusBarLabel": "Resource Groups"
+            },
+            "businessentities": {
+                "xtype": "textfield",
+                "labelAlign": "top",
+                "fieldLabel": "Business Entities",
+                "ref": "businessentities",
+                "action": {
+                    "call": "openPopup",
+                    "callType": "handler",
+                    "callAs": "triggers|show",
+                    "params": [
+                        "Business Entities",
+                        "businessentities"
+                    ]
+                },
+                "triggers": {
+                    "show": {
+                        "cls": "x-form-search-trigger"
+                    }
+                },
+                "statusBarLabel": "Business Entities"
+            },
+            "businessentitygroups": {
+                "xtype": "textfield",
+                "labelAlign": "top",
+                "fieldLabel": "Business Entity Groups",
+                "ref": "businessentitygroups",
+                "action": {
+                    "call": "openPopup",
+                    "callType": "handler",
+                    "callAs": "triggers|show",
+                    "params": [
+                        "Business Entity Groups",
+                        "businessentitygroups"
+                    ]
+                },
+                "triggers": {
+                    "show": {
+                        "cls": "x-form-search-trigger"
+                    }
+                },
+                "statusBarLabel": "Business Entity Groups"
+            }
+        },
+        "scope": {
+            "ecp": {
+                "filtercriteria": {
+                    "fields": [
+                        "usertype",
+                        "users",
+                        "usergroups",
+                        "resources",
+                        "resourcegroups"
+                    ]
+                },
+                "viewselectionpanel": {
+                    "fields": [
+                        "Users",
+                        "User Groups",
+                        "Entitlements",
+                        "Resources",
+                        "Resource Groups"
+                    ]
+                }
+            },
+            "primeview": {
+                "filtercriteria": {
+                    "fields": [
+                        "usertype",
+                        "users",
+                        "usergroups",
+                        "resources",
+                        "resourcegroups",
+                        "businessentities",
+                        "businessentitygroups"
+                    ]
+                },
+                "viewselectionpanel": {
+                    "fields": [
+                        "Users",
+                        "User Groups",
+                        "Entitlements",
+                        "Resources",
+                        "Resource Groups",
+                        "Business Entities",
+                        "Business Entity Groups"
+                    ]
+                }
+            }
+        }
+    }
+}
